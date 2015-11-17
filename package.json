@@ -1,0 +1,33 @@
+{
+  "name": "cleverbot.io-promise",
+  "version": "1.0.0",
+  "description": "A client for cleverbot.io which uses Bluebird.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://artdude543@github.com/artdude543/cleverbot.io-promise.git"
+  },
+  "keywords": [
+    "cleverbot",
+    "cloud",
+    "api"
+  ],
+  "author": "Kieron Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artdude543/cleverbot.io-promise/issues"
+  },
+  "homepage": "https://github.com/artdude543/cleverbot.io-promise#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "request-promise": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.4"
+  }
+}
