@@ -15,6 +15,9 @@
     "cloud",
     "api"
   ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "author": "Kieron Richardson",
   "license": "MIT",
   "bugs": {
